@@ -1,0 +1,55 @@
+div a{
+	font-size:20px;
+	color:#7D08CB;		
+	display:line-block
+	padding:30px 10px;
+	margin:90px;
+}
+
+a{
+	font-size:30px; /*Cambia el tamaño de la letra*/
+	display:line-block /*hace que una linea se comporte como un bloque*/
+	padding:30px 10px; /*borde entre el texto y el cuadro del bloque*/
+	margin:90px; /*mager entre el bloque y la pagina*/
+	background:#0B4BFE; /*Color de fondo*/
+	color:#fff; /*Color de las letras*/
+	text-decoration:none;	 /*quita la linea de abajo del texto*/
+	box-shadow: 1px 5px 1px #020818; /*Pone sombra en el bloque*/
+}
+
+/*Modifia las propiedades del los vinculos que no han sido seleccionados*/
+a:link{
+	display:line-table;
+	color:#E4C8F6;
+	font-size:25;
+}
+
+/*Modifica las propiedades del vinculo si pasas el cursos sobre ellos*/
+a:hover{
+	background:#0A36B0;
+	color:#fff;
+	font-size:30px;
+	
+}
+
+/*Modifica las propiedades del vinculo si sele da clic en el*/
+a:active{
+	box-shadow: 1px 4px 1px #020818;
+}
+
+/*Modifica las propiedades del vinculo si este ya fue utilizado*/
+div a:visited{
+	text-decoration:line-through;
+	background:yellow;
+	color:white;	
+}
+
+
+div a:hover{
+	background:#F9F0FB;
+	color:#000;
+	font-size:30px;
+}
+
+
+

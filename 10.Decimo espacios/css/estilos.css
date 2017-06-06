@@ -1,0 +1,109 @@
+/*Estilo para todo la pagina*/
+*{
+	margin:0px; /*quita los espacios que vienen por defecto en la pagina*/
+	padding:0px; /*quita los espacios entre los elemtos, que se establecen por defecto*/
+}
+
+body{
+	background:#EBEAFA; /*Color de fondo de la pagina*/
+}
+
+/*Estilo para el encabezado*/
+header, .main, footer{	
+	width:90%; /*Se le pone 90% para que se diseño responsibo, este es el tamaño que tendra el encabezado de la pagina*/
+	margin:20px auto /*Ajusta automaticamente los margenes del encabezado a el tamaño de este*/;
+	max-width:1000px;
+}
+
+/*Estilo de la barra de navegacion*/
+header nav{
+	background:#F70713; /*Color de la barra de navegacion*/
+	overflow:hidden; /*Limpia los contenedores cuando hay un problema con el float:left; tambien ajusta el contenido cuando se sale de los margenes*/
+}
+
+header nav ul{
+	list-style:none; /*le quita la linea de abajo del texto de los vinculos*/
+}
+
+header nav ul li{
+	float:left; /*acomada los vinculos de forma Horizontal*/
+
+}
+
+header nav ul li a{
+	display:block; /*Se cambia de liena a bloque para que estos puedan tarner espacios entre ellos*/		
+	padding:10px 20px; /*Se le da espacios entre lostextos*/	
+	color:#fff; /*Se le da color a las letras*/
+	text-decoration:none; /*Le quita las viñetas a los vinculos*/
+}
+/*Cuando se pasa el cursor sobre el enlace*/
+header nav ul li a:hover{
+	background:#FE858B;  /*Cambio de color*/
+}
+
+.main .articles{
+	width:68.5%; /*Ancho que ocupara los articulos dentro de la pagina*/
+	margin-right:1.5%; /*Pone gargen enter el aside y el articulo*/
+	float:left; /*Se acomodaran hacia la izquiarda*/
+	background:#fff; /*Cambio de color*/
+
+}
+
+.main .articles article{
+	padding:20px;
+	background:#fff;
+	margin-bottom:20px;
+
+}
+
+aside{
+	width:30%; /*Ancho del 30% del espacio de la pagina*/
+	padding:20px;
+	float:left;
+	background:#1E0FF9;
+	color:#fff;
+	box-sizing:border-box;
+	
+}
+
+footer{
+	background:#F70713;
+	text-align:center;
+	color:#fff;
+	clear:both;
+
+}
+
+.mario{
+	clear:both;
+}
+
+.mario div{
+	float:left;
+}
+
+table{
+	border: 1px solid #000;
+	border-collapse:collapse;
+	text-align:center;
+	
+}
+
+table td{
+	border: 1px solid #000;
+	padding: 10px
+	
+}
+
+table tr:hover{
+	background:#0C04F8;
+	color:#fff;	
+}
+
+table td:hover{
+	background:#D9071C;
+	color:#fff;	
+}
+
+
+

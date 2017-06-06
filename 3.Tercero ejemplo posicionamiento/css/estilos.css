@@ -1,0 +1,77 @@
+div{
+	width:100px;
+	height:100px;
+	background:#4A88F4;
+	color:#fff;
+	font-size:30px;
+	
+}
+
+.numero{
+	position:relative; /*Permite modidficar la pocicion pero no se ajustan los demas elementos al espacion que este deja*/
+	top:10px;
+	bottom:0px;
+	left:30%;
+	right:0px;
+	
+
+}
+
+.numero2{
+
+	position:absolute; /*Permite modidficar la pocicion y los demas bloque se ajustan al espacio que este deja,*/
+	top:30px;
+	bottom:0px;
+	left:50%;
+	right:0px;
+
+
+}
+
+/*Permite dar estilo a un bloque dentro de otro en este ejemplo hijo esta dentro de padre, el bloque padre definira los espacios de trabajo del bloque hijo*/
+.padre{
+	width:300px;
+	height:300px;
+	background:#000;
+	position: relative;
+	left:50%;	
+
+}
+
+/*El bloque hijo esta contenido dentro del bloque padre, y solo podra desplazarce dentro de este*/
+.hijo{
+	
+	position:absolute; /*Permite modidficar la pocicion y los demas bloque se ajustan al espacio que este deja,*/
+	top:100px;
+	bottom:0px;
+	left:100px;
+	right:0px;
+
+}
+
+.numero3{
+
+	position:fixed; /*Permite modidficar la pocicion, este elemento siempre estara en la pantalla,*/
+	top:100px;
+	bottom:0px;
+	left:130px;
+	right:0px;
+
+
+}
+
+
+/* toma un conjunto de bloques que estan bajo la misma clase*/
+.mov{
+
+	width:100px;
+	height:100px;
+	background:#4A88F4;
+	color:#fff;
+	font-size:30px;
+	float:left; /*perimte el alineamiento de los bloques de izquierda a derecha*/
+	position:static;
+
+}
+
+

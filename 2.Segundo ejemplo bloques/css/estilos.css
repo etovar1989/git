@@ -1,0 +1,9 @@
+body{
+	
+	/*Todo esto tambie se puede aplica a cada bloque de manera individual*/
+	background:url(../imagenes/Luma_Yellow.png); /*Muestra una imagen en el fondo*/
+	background-repeat:no-repeat; /*No repite le imagen*/
+	background-position:center; /*Centra la imagen, tambien se le pueden dar valires en X y Y para la pocicion*/
+	background-attachment:fixed; /*Ajusta la imagen para que siempre este en la misma posicion*/
+	
+}

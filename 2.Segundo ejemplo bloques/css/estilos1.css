@@ -1,0 +1,10 @@
+div{
+	
+	background:rgb(60, 80,70); /*Color de fondo del bloque*/
+	width:35%; /*Ancho del bloque*/
+	height:100px; /*Alto del bloque*/
+	margin:20px 20px; /*Margen del bloque*/
+	padding:30px; /*Espacio entre el texto y el borde del bloque*/
+	border:10px solid #000; /*borde del bloque y tipo solido para punteado es dotte*/
+	display:inline-table; /*Pone los bloque uno ensegida del otro, tambien se puede usar el inline-block*/
+}

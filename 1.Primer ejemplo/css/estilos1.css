@@ -1,0 +1,36 @@
+/*body{*/
+	/*background:#000;*/ /*Color de fondo negro*/	
+/*}*/
+
+/*Le cambia por color rojo a todo lo que este denetro del span en el html*/
+p span{
+	color:red;
+}
+
+/*Le cambia el tamaño a todo lo que este denetro del span y que sea "a" en el html*/
+p span a{
+	font-size:30px;
+}
+
+/*Le cambia el color a anaranjado, todo lo del en el html que este en la clase meme*/
+.meme{
+
+	color:orange;
+}
+
+/*Le cambia el color a verde y el tamaño a 20px, todo lo del en el html que este en la clase meme y que sea un p*/
+p .meme{
+
+	font-size:20px;
+	color:green;
+	
+}
+
+/*cambia el color y el tamaño de la fuente de los a que tiene como valor de  href="http:\\www.google.com.co" */
+a [href="http:\\www.google.com.co"]{
+	
+	font-size:30px;
+	color:blue;
+
+}
+

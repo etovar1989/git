@@ -1,0 +1,56 @@
+/*Formulario*/
+form{
+	width:25%; /*El tamaño que ocupara el formulario*/
+	border:1px solid #000; /*Para que sea visible el borde*/
+	margin:20px; /*Una margen de 20px*/
+	padding:20px; /*Espacio entre el borde y los elementos internos es de 20px*/
+}
+
+/*Texto de referencia o label*/
+label{
+	font-size:15px; /*Cambia la fuente del texto de los label*/
+	display:block;
+}
+
+textarea{
+	resize:vertical;/*Cambia la habilidad de cambiar el tamaño del cuadro de area de texto*/
+	max-height:300px;
+	min-height:100px;
+	
+}
+
+/*Modificacion de los espaciados, tamaños y margenes, para los input y el textarea*/
+input,textarea{
+	margin-bottom:20px; /*La maerge y el espacio que hay entre cada uno de las input*/
+	width:100%; /*tamaño que ocupara dentro del formulario*/
+	padding:10px;
+	
+	-webkit-box-sizing: border-box;/*Ajuste los componentes en el centro del bloque*/
+	-moz-box-sizing: border-box;/*Ajuste los componentes en el centro del bloque*/
+	box-sizing: border-box;/*Ajuste los componentes en el centro del bloque*/
+	
+	border:1px solid #ccc;
+}
+
+/*Foco de cuando se selcciona un input y el textarea*/
+input:focus, textarea:focus{
+	border:1px solid #2A42FB; /*le da un borde y cambia el color de este cuando se le da clic al cuadro de texto*/
+}
+
+/*NO ESTA FUNCIONANDO DE AQUI PARA ABAJO*/
+/*Modifica las proiedades del boton*/
+input [type="submit"]{	
+	margin-bottom:0px; /*La maerge y el espacio que hay entre el boton y los input*/
+	background:#000;
+	color:#fff;
+	border:none;
+}
+
+/*Modifica los colores del boton cuando se pasa el cursor por encima de este*/
+
+input [type="submit"]:hover{		
+	background:#324AFF;
+	color:#fff;
+	cursor:pointer;
+}
+

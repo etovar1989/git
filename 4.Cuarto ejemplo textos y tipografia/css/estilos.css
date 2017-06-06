@@ -1,0 +1,39 @@
+
+.ejm1{
+
+	font-family:"calibri"; /*Cambia el tipo de fuente*/
+	font-size:20px; /*Cambia el tamaño de la fuente*/
+	font-weight:bold;/*Negrita*/
+	text-align:center;/*alineacion del texto*/
+	line-height:30px;/*tamaño de la linea*/
+	text-decoration:underline;/*Linea debajo del texto*/
+	text-transform: capitalize;/*Pone el texto en mayuscaula la primera letra de cada palabra*/
+	letter-spacing:10px;/*Pone espacio entre las letras*/
+	text-shadow:5px 3px 4px #000;/*Pone sombra en las letras*/
+}
+
+.ejm2{
+
+	color:blue;
+	font-family:"verdana"; /*Cambia el tipo de fuente*/
+	font-size:30px; /*Cambia el tamaño de la fuente*/
+	font-weight:normal;/*NO Negrita*/
+	text-align:right;/*alineacion del texto a la derecha*/
+	line-height:normal;/*tamaño de la linea*/
+	text-decoration:line-through;/*Linea en medio del texto*/
+	text-transform: uppercase;/*Pone el texto en mayuscaula*/
+	
+}
+
+.ejm3{
+
+	color:purple;
+	font-family:"comics sans"; /*Cambia el tipo de fuente*/
+	font-size:15px; /*Cambia el tamaño de la fuente*/
+	font-weight:normal;/*NO Negrita*/
+	text-align:left;/*alineacion del texto a la derecha*/
+	line-height:normal;/*tamaño de la linea*/
+	text-decoration:overline;/*Linea encima del texto*/
+	text-transform: lowercase;/*Pone el texto en minisculas*/
+	word-spacing:20px;/*Pone espacio entre las palabras*/
+}

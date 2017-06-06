@@ -1,0 +1,12 @@
+/*Hace una espacia de marco de foto*/
+.ima1{
+	border-radius:5px;/*Redonde las puntas de la imagen*/
+	width:8%; 
+	padding:10px; /*Espacio entre la imagen y el borde del bloque*/
+	border:10px solid #ccc /*La pone un borde a la image*/;
+}
+
+img{
+	background:#ccc;
+	border-radius:50%; /*Cambia la forma del contorno de la imagen por un circulo*/
+}

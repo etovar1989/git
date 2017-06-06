@@ -1,0 +1,20 @@
+table{
+	border:1px solid #000; /*Le pone borde al contorno de la tabla*/
+	border-collapse:collapse; /*quita los espacios entre celdas*/
+}
+
+table td{
+	border:1px solid #000; /*Le pone borde a las celdas*/
+	padding:20px;
+}
+
+/*Cambia el color de la fila seleccionada*/
+table tr:hover{
+	background:#ccc;
+}
+
+/*Cambia el color de la celda seleccionada*/
+table td:hover{
+	background:#000;
+	color:#fff;
+}

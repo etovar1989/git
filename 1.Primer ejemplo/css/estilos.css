@@ -1,0 +1,21 @@
+/* Tamaño por defecto del body es de 16px*/
+body{
+
+	font-size:16px;
+}
+
+
+/*Los em son unidades de medidas, estas equivalen al la fuente padre mas cercana para este ejemplo 1em = 16px por que el body tiene una fuente de 16px*/
+/*El 100% es otra medida donde indica que ocupara el 100% de lo designado al nacho "width"*/
+div p{
+	font-size:2em;
+	background:#000;
+	color:#fff;
+	width:100%;
+}
+
+h1{
+	
+	color:rgba(15, 60, 80, 0.5);
+	
+}

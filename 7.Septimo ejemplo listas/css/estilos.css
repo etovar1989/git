@@ -1,0 +1,66 @@
+
+/*Cambia el estilo de viñetas por circulos*/
+/*ul{
+	list-style-type: circle;
+}*/
+
+/*Cambia el estilo de viñetas por circulos de las listas que estan dentro de listas*/
+/*ul >ul{
+	list-style-type: circle;
+}*/
+
+/*Le adiciona un cero al inicio de los numero de la listas*/
+/*ol{
+	list-style-type:decimal-leading-zero;
+}*/
+
+/*Cambian los numero de la lista por letras en mayuscula*/
+/*ol{
+	list-style-type:upper-latin;
+}*/
+
+/*Cambian los numero de la lista por letras en minuscula*/
+/*ol{
+	list-style-type:lower-latin;
+}*/
+
+/*Cambian los numero de la lista por numeros romanos*/
+/*ol{
+	list-style-type:upper-roman;
+}*/
+
+/*Cambiar la pocicion de la lista y la adentra*/
+/*ul{
+	list-style-position: inside;
+}*/
+
+/*Configuracion del menu*/
+.menu{
+	width:100%; /*Ancho*/
+	padding:0; /*Espacio entre texto y el bloque*/
+	background:#000; /*Color de fondo*/
+	margin:0; /*Mager del bloque*/
+	list-style:none; /*le quita las viñetas*/	
+}
+
+/*Configuracion de estilo de menu de vista del listado*/
+.menu li{
+	display:inline-block; /*Cambia las lineas por bloques*/
+	
+}
+
+/*Configuracion de estilo vista de los elemetos del listado*/
+.menu li a{
+	display:inline-block; /*Cambia las lineas por bloques*/
+	padding:10px 20px;
+	color:#fff;
+	text-decoration:none;
+}
+
+/*Configuracion de estilo vista de los elemetos del listado cuando el cursor pasa por encima de ellos*/
+.menu li a:hover{
+	background:#ccc;
+	color:#000;	
+}
+
+
