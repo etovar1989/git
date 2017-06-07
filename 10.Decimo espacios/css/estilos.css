@@ -10,8 +10,8 @@ body{
 
 /*Estilo para el encabezado*/
 header, .main, footer{	
-	width:90%; /*Se le pone 90% para que se diseño responsibo, este es el tamaño que tendra el encabezado de la pagina*/
-	margin:20px auto /*Ajusta automaticamente los margenes del encabezado a el tamaño de este*/;
+	width:90%; /*Se le pone 90% para que se diseÃ±o responsibo, este es el tamaÃ±o que tendra el encabezado de la pagina*/
+	margin:20px auto /*Ajusta automaticamente los margenes del encabezado a el tamaÃ±o de este*/;
 	max-width:1000px;
 }
 
@@ -34,7 +34,7 @@ header nav ul li a{
 	display:block; /*Se cambia de liena a bloque para que estos puedan tarner espacios entre ellos*/		
 	padding:10px 20px; /*Se le da espacios entre lostextos*/	
 	color:#fff; /*Se le da color a las letras*/
-	text-decoration:none; /*Le quita las viñetas a los vinculos*/
+	text-decoration:none; /*Le quita las viÃ±etas a los vinculos*/
 }
 /*Cuando se pasa el cursor sobre el enlace*/
 header nav ul li a:hover{
@@ -74,6 +74,7 @@ footer{
 
 }
 
+/*Borra las margenes */
 .mario{
 	clear:both;
 }
@@ -82,27 +83,67 @@ footer{
 	float:left;
 }
 
+/*Brinda los estilos la tabla*/
 table{
-	border: 1px solid #000;
-	border-collapse:collapse;
-	text-align:center;
+	border: 1px solid #000; /*Le adiciona un contorno a la tabla*/
+	border-collapse:collapse; /*Elimina los espacios entre las celdas*/
+	text-align:center; /*Centra el texto de las celdas*/
 	
 }
 
 table td{
-	border: 1px solid #000;
-	padding: 10px
+	border: 1px solid #000; /* le da color y borde a las celdas*/
+	padding: 10px /*Le da espacio a las celdas*/
 	
 }
 
 table tr:hover{
-	background:#0C04F8;
-	color:#fff;	
+	background:#0C04F8; /*cambia el color de la fila cuando se selecciona*/
+	color:#fff;	 /*cambia el color de las letras cuando se selcciona la fila*/
 }
 
 table td:hover{
-	background:#D9071C;
-	color:#fff;	
+	background:#D9071C; /*cambia el color de la celda cuando selcciona la columna*/
+	color:#fff; /*color de las letras*/	
+}
+
+/*estilo del formulario*/
+form{
+    padding: 5%; /*espaciado interno*/
+    width: 95%; /*ancho*/
+    margin: auto;
+    background:rgba(250,255,5,0.7) ; /*color de fondo con trasparencia*/
+    box-sizing: border-box; /*ajusta las los espacios internos para que externamente no se desborde los espacios*/    
+    border-radius:5px;/*Redonde las puntas de la imagen*/
+}
+
+/*estilo del titulo del formulario*/
+form h2{
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: green;
+    
+}
+
+/*estilo de los tecxto boton y area de texto*/
+input, textarea{
+    width: 100%;
+    margin-bottom:20px;
+    box-sizing: border-box;/*ajusta las los espacios internos para que externamente no se desborde los espacios*/    
+    color:green;
+}
+
+textarea{
+    min-height:100px ;
+    max-height: 20px;
+    max-width: 100%;
+}
+
+#boton{
+    font-size: 18px;
+    color: green;
+    background: rgba(9,251,49,0.7);
 }
 
 
